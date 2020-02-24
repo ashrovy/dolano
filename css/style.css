@@ -88,7 +88,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #1bb1dc;
+  border-top: 6px solid #85311A; /*perubahan*/
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -142,7 +142,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #1bb1dc;
+  color: #FD9228; /*1bb1dc*/
 }
 
 #topbar .social-links a:first-child {
@@ -210,7 +210,7 @@ h6 {
 # Intro Section
 --------------------------------------------------------------*/
 
-/*#intro {
+#intro {
   width: 100%;
   height: 100vh;
   position: relative;
@@ -219,14 +219,14 @@ h6 {
 }
 
 #intro .intro-info h2 {
-  color: #FD9228; 
+  color: #86321C; 
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
 }
 
 #intro .intro-info h2 span {
-  color: #1bb1dc;
+  color: #FD9228;
 }
 
 #intro .intro-info .btn-get-started,
@@ -248,10 +248,10 @@ h6 {
 #intro .intro-info .btn-get-started:hover,
 #intro .intro-info .btn-services:hover {
   background: #FD9228; 
-}*/
+}
 
 /*tambahan*/
-header.masthead {
+/*header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masthead.jpg");
@@ -284,7 +284,7 @@ header.masthead {
 .masthead .btn-get-started:hover,
 .masthead .intro-info .btn-services:hover {
   background: #FD9228; 
-}
+}*/
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -359,13 +359,13 @@ header.masthead {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #065e77;
+  color: #85311A; /*065e77 perubahan */ 
 }
 
 .main-nav .drop-down ul a:hover,
 .main-nav .drop-down ul .active > a,
 .main-nav .drop-down ul li:hover > a {
-  color: #1bb1dc;
+  color: #FD9228; /*perubahan*/
 }
 
 .main-nav .drop-down > a:after {
@@ -406,7 +406,7 @@ header.masthead {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: rgba(40, 38, 70, 0.8);
+  background: rgba(255, 251, 237, 0.6); /*rgba(40, 38, 70, 0.8)*/
   transition: 0.4s;
 }
 
@@ -419,7 +419,7 @@ header.masthead {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #fff;
+  color: #85311A; /*#fff*/
   padding: 10px 20px;
   font-weight: 500;
 }
@@ -427,7 +427,7 @@ header.masthead {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #8dc2fa;
+  color: #FFFBED; /*8dc2fa*/
   text-decoration: none;
 }
 
@@ -473,7 +473,7 @@ header.masthead {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #065e77;
+  color: #85311A; /*065e77*/
 }
 
 .mobile-nav-overly {
@@ -483,7 +483,7 @@ header.masthead {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(40, 38, 70, 0.8);
+  background: rgba(253, 146, 40, 0.77); /*rgba(40, 38, 70, 0.8)*/
   overflow: hidden;
   display: none;
 }
